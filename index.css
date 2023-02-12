@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    font-family: "Roboto";
+    /* justify-content: center; */
+}
+
+.dashboard-container {
+    color: white;
+    background-color: #002159;
+    width: 25rem;
+    padding: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.Dashboard_heading {
+    font-size: 3.2rem;
+}
+
+.sectionContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 2.0rem;
+}
+
+i {
+    align-self: center;
+    margin: 1.3rem;
+    font-size: 2.0rem;
+}
+
+.profilePic {
+    width: 5.0rem;
+    border-radius: 2.5rem;
+}
+
+.profileDetailsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.profile_name {
+    margin-left: 1.0rem;
+    font-size: 1.6rem;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.DifferentSections {
+    flex-grow: 1;
+}
+
+.favorites_container {
+    padding: 2.0rem;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+
+.Favorites_heading {
+    font-size: 4rem;
+}
+
+.imageElements {
+    width: 20rem;
+    padding: 1rem;
+}
+
+.images_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media all and (max-width:575px) {
+    html {
+        font-size: 25%;
+    }
+}
+
+@media all and (max-width:767px) {
+    html {
+        font-size: 35%;
+    }
+}
+
+@media all and (max-width:990px) {
+    html {
+        font-size: 48%;
+    }
+}
